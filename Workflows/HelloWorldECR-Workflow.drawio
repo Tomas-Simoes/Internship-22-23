@@ -1,0 +1,115 @@
+<mxfile host="Electron" modified="2023-05-01T22:07:01.066Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/21.2.1 Chrome/112.0.5615.87 Electron/24.1.2 Safari/537.36" etag="f6UvO4-9LU1BvazIQy9Q" version="21.2.1" type="device">
+  <diagram name="Page-1" id="XcmG7c8U4S-Q7-2kqEsH">
+    <mxGraphModel dx="867" dy="602" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="AnuRmq2RbONj0e9H7Z4S-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="AnuRmq2RbONj0e9H7Z4S-1" target="AnuRmq2RbONj0e9H7Z4S-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="280" y="150" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AnuRmq2RbONj0e9H7Z4S-1" value="Created index.html&lt;br&gt;and Dockerfile" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="AnuRmq2RbONj0e9H7Z4S-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="AnuRmq2RbONj0e9H7Z4S-3" target="AnuRmq2RbONj0e9H7Z4S-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="450" y="150.22222222222217" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AnuRmq2RbONj0e9H7Z4S-3" value="Build the docker image" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="AnuRmq2RbONj0e9H7Z4S-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="AnuRmq2RbONj0e9H7Z4S-5" target="AnuRmq2RbONj0e9H7Z4S-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AnuRmq2RbONj0e9H7Z4S-5" value="Created ECR repository" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="450" y="120.00222222222217" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="AnuRmq2RbONj0e9H7Z4S-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="AnuRmq2RbONj0e9H7Z4S-6" target="AnuRmq2RbONj0e9H7Z4S-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AnuRmq2RbONj0e9H7Z4S-6" value="Configured my AWS account" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="450" y="240.00222222222214" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="AnuRmq2RbONj0e9H7Z4S-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="AnuRmq2RbONj0e9H7Z4S-8" target="AnuRmq2RbONj0e9H7Z4S-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AnuRmq2RbONj0e9H7Z4S-8" value="Logged into ECR" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="280" y="240.00222222222214" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="AnuRmq2RbONj0e9H7Z4S-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="AnuRmq2RbONj0e9H7Z4S-10" target="AnuRmq2RbONj0e9H7Z4S-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AnuRmq2RbONj0e9H7Z4S-10" value="Tagged the docker image" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="110" y="240.00222222222214" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="AnuRmq2RbONj0e9H7Z4S-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="AnuRmq2RbONj0e9H7Z4S-12" target="AnuRmq2RbONj0e9H7Z4S-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AnuRmq2RbONj0e9H7Z4S-12" value="Pushed the docker image" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="110" y="360.00222222222214" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="AnuRmq2RbONj0e9H7Z4S-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="AnuRmq2RbONj0e9H7Z4S-14" target="AnuRmq2RbONj0e9H7Z4S-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AnuRmq2RbONj0e9H7Z4S-14" value="Created ECS Cluster" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="280" y="360.00222222222214" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="AnuRmq2RbONj0e9H7Z4S-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="AnuRmq2RbONj0e9H7Z4S-17" target="AnuRmq2RbONj0e9H7Z4S-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AnuRmq2RbONj0e9H7Z4S-17" value="Created Task Definition" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="450" y="360.00222222222214" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="AnuRmq2RbONj0e9H7Z4S-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="AnuRmq2RbONj0e9H7Z4S-19" target="AnuRmq2RbONj0e9H7Z4S-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AnuRmq2RbONj0e9H7Z4S-19" value="Created Service" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="450" y="460.00222222222214" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="AnuRmq2RbONj0e9H7Z4S-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="AnuRmq2RbONj0e9H7Z4S-23" target="AnuRmq2RbONj0e9H7Z4S-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AnuRmq2RbONj0e9H7Z4S-23" value="It runs?" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="300" y="450.00222222222214" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="AnuRmq2RbONj0e9H7Z4S-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="AnuRmq2RbONj0e9H7Z4S-25" target="AnuRmq2RbONj0e9H7Z4S-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AnuRmq2RbONj0e9H7Z4S-25" value="Created a Load Balancer and a Security Group" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="280" y="560.0022222222221" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="AnuRmq2RbONj0e9H7Z4S-28" value="No" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="340" y="530" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AnuRmq2RbONj0e9H7Z4S-32" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="AnuRmq2RbONj0e9H7Z4S-29" target="AnuRmq2RbONj0e9H7Z4S-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AnuRmq2RbONj0e9H7Z4S-29" value="Recreated a new service with the right security group and load balance settings" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="450" y="560.0022222222221" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="AnuRmq2RbONj0e9H7Z4S-34" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="AnuRmq2RbONj0e9H7Z4S-31" target="AnuRmq2RbONj0e9H7Z4S-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AnuRmq2RbONj0e9H7Z4S-31" value="Edited the inbound rules of the security group to allow ECS access" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="450" y="660.0022222222221" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="AnuRmq2RbONj0e9H7Z4S-36" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="AnuRmq2RbONj0e9H7Z4S-33">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="240" y="690.0022222222221" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AnuRmq2RbONj0e9H7Z4S-33" value="It runs?" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="300" y="650.0022222222221" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="AnuRmq2RbONj0e9H7Z4S-37" value="Yes" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="260" y="660" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AnuRmq2RbONj0e9H7Z4S-39" value="" style="ellipse;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="200" y="670" width="40" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
