@@ -1,0 +1,97 @@
+<mxfile host="Electron" modified="2023-05-09T19:33:01.563Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/21.2.1 Chrome/112.0.5615.87 Electron/24.1.2 Safari/537.36" etag="NowHhNLuP7d0vKWfKsyj" version="21.2.1" type="device">
+  <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
+    <mxGraphModel dx="836" dy="586" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="ITdkk1hCitlFTFdfoB9N-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="ITdkk1hCitlFTFdfoB9N-8" target="ITdkk1hCitlFTFdfoB9N-11" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ITdkk1hCitlFTFdfoB9N-8" value="Created NodeJS app with Express" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="70" y="60" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ITdkk1hCitlFTFdfoB9N-9" value="&lt;i&gt;note: listen to port 3000&lt;br&gt;used pm2 package to run the application&lt;/i&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="190" y="60" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ITdkk1hCitlFTFdfoB9N-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="ITdkk1hCitlFTFdfoB9N-11" target="ITdkk1hCitlFTFdfoB9N-12" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ITdkk1hCitlFTFdfoB9N-11" value="Build Docker image" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="70" y="130" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ITdkk1hCitlFTFdfoB9N-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="ITdkk1hCitlFTFdfoB9N-12" target="ITdkk1hCitlFTFdfoB9N-15" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ITdkk1hCitlFTFdfoB9N-12" value="Created ECR repository" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="70" y="200" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ITdkk1hCitlFTFdfoB9N-13" value="&lt;i&gt;$ docker&amp;nbsp; build -t fargate-app .&lt;/i&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="195" y="135" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ITdkk1hCitlFTFdfoB9N-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="ITdkk1hCitlFTFdfoB9N-15" target="ITdkk1hCitlFTFdfoB9N-18" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ITdkk1hCitlFTFdfoB9N-15" value="Logged in" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="70" y="270" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ITdkk1hCitlFTFdfoB9N-17" value="&lt;div style=&quot;color: rgb(57, 80, 99); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 11px; line-height: 19px;&quot;&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;i style=&quot;&quot;&gt;aws ecr get-login-password --region &amp;lt;region&amp;gt; |&amp;nbsp;&lt;/i&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;i style=&quot;&quot;&gt;docker login --username AWS --password-stdin &amp;lt;account-id&amp;gt;.dkr.ecr.&amp;lt;region&amp;gt;.amazonaws.com&lt;/i&gt;&lt;/div&gt;&lt;div style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="190" y="265" width="560" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ITdkk1hCitlFTFdfoB9N-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="ITdkk1hCitlFTFdfoB9N-18" target="ITdkk1hCitlFTFdfoB9N-24" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ITdkk1hCitlFTFdfoB9N-18" value="Tag and push image to the repository" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="70" y="340" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ITdkk1hCitlFTFdfoB9N-20" value="&lt;div style=&quot;color: rgb(57, 80, 99); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; line-height: 19px; font-size: 11px;&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;i style=&quot;background-color: initial;&quot;&gt;docker tag fargate-app:latest 910807620466.dkr.ecr.eu-west-1.amazonaws.com/fargate-app:latest&lt;/i&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left; line-height: 19px;&quot;&gt;docker push 910807620466.dkr.ecr.eu-west-1.amazonaws.com/fargate-app:latest&lt;/div&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 14px; background-color: rgb(255, 255, 255);&quot;&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="195" y="335" width="590" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ITdkk1hCitlFTFdfoB9N-23" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;note: don&#39;t forget to configure AWS credentions&lt;/span&gt;&lt;/div&gt;&lt;i&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;i style=&quot;background-color: initial;&quot;&gt;aws configure&lt;/i&gt;&lt;/div&gt;&lt;/i&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="195" y="230" width="270" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ITdkk1hCitlFTFdfoB9N-44" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="ITdkk1hCitlFTFdfoB9N-24" target="ITdkk1hCitlFTFdfoB9N-43" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ITdkk1hCitlFTFdfoB9N-24" value="Created Task Definition" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="70" y="420" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ITdkk1hCitlFTFdfoB9N-27" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;i style=&quot;background-color: initial;&quot;&gt;use the repository URL for the container image&lt;/i&gt;&lt;/div&gt;&lt;i&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;i style=&quot;background-color: initial;&quot;&gt;use the port the was exposed in the app for the container port&lt;/i&gt;&lt;/div&gt;&lt;/i&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="200" y="420" width="350" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ITdkk1hCitlFTFdfoB9N-47" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="ITdkk1hCitlFTFdfoB9N-43" target="ITdkk1hCitlFTFdfoB9N-46" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ITdkk1hCitlFTFdfoB9N-43" value="Create Load Balancer" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="70" y="500" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ITdkk1hCitlFTFdfoB9N-45" value="&lt;i&gt;listens to port 80&lt;br&gt;&lt;/i&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="195" y="505" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ITdkk1hCitlFTFdfoB9N-50" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="ITdkk1hCitlFTFdfoB9N-46" target="ITdkk1hCitlFTFdfoB9N-49" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ITdkk1hCitlFTFdfoB9N-46" value="Create Security Group" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="70" y="560" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ITdkk1hCitlFTFdfoB9N-48" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;i style=&quot;background-color: initial;&quot;&gt;capable of receiving trafic on port 80 and the request&lt;/i&gt;&lt;/div&gt;&lt;i&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;i style=&quot;background-color: initial;&quot;&gt;can come from 0.0.0.0/0 and ::/0&lt;/i&gt;&lt;/div&gt;&lt;/i&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="195" y="560" width="300" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ITdkk1hCitlFTFdfoB9N-53" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="ITdkk1hCitlFTFdfoB9N-49" target="ITdkk1hCitlFTFdfoB9N-52" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ITdkk1hCitlFTFdfoB9N-49" value="Create Target Group" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="70" y="620" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ITdkk1hCitlFTFdfoB9N-51" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;i style=&quot;background-color: initial;&quot;&gt;target type: IP Adress&lt;/i&gt;&lt;/div&gt;&lt;i&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;i style=&quot;background-color: initial;&quot;&gt;use the port used on the docker app&lt;/i&gt;&lt;/div&gt;&lt;/i&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="200" y="620" width="220" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ITdkk1hCitlFTFdfoB9N-52" value="Create Service" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="70" y="720" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ITdkk1hCitlFTFdfoB9N-54" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Select the Task Definition, Load Balancer and Target Group created before&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Create a new security group with All TCP and Load Balancer security group as source&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="195" y="720" width="480" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

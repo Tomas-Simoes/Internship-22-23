@@ -1,0 +1,112 @@
+<mxfile host="Electron" modified="2023-05-04T10:14:10.373Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/21.2.1 Chrome/112.0.5615.87 Electron/24.1.2 Safari/537.36" etag="qRHSpuPYUiuMIzyUAPY1" version="21.2.1" type="device">
+  <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
+    <mxGraphModel dx="1059" dy="743" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="xv_3JATJkNZOGaEbZYAs-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="WIyWlLk6GJQsqaUBKTNV-3" target="xv_3JATJkNZOGaEbZYAs-8" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-3" value="Created simple Node JS app with Express" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="160" y="80" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="xv_3JATJkNZOGaEbZYAs-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="xv_3JATJkNZOGaEbZYAs-0" target="xv_3JATJkNZOGaEbZYAs-3" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xv_3JATJkNZOGaEbZYAs-0" value="Created Procfile&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="160" y="220" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="xv_3JATJkNZOGaEbZYAs-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="xv_3JATJkNZOGaEbZYAs-3" target="xv_3JATJkNZOGaEbZYAs-5" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xv_3JATJkNZOGaEbZYAs-3" value="Created new app in Heroku" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="160" y="290" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="xv_3JATJkNZOGaEbZYAs-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="xv_3JATJkNZOGaEbZYAs-5" target="xv_3JATJkNZOGaEbZYAs-12" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xv_3JATJkNZOGaEbZYAs-5" value="Logged into Heroku" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="160" y="360" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="xv_3JATJkNZOGaEbZYAs-7" value="&lt;i&gt;article&amp;nbsp;used:&amp;nbsp;https://medium.com/geekculture/deploy-node-applications-on-heroku-a89ed51e0a34&lt;/i&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="55" y="50" width="540" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xv_3JATJkNZOGaEbZYAs-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="xv_3JATJkNZOGaEbZYAs-8" target="xv_3JATJkNZOGaEbZYAs-0" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xv_3JATJkNZOGaEbZYAs-8" value="Added the &quot;start&quot; script in package.json" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="160" y="150" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="xv_3JATJkNZOGaEbZYAs-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="xv_3JATJkNZOGaEbZYAs-12" target="xv_3JATJkNZOGaEbZYAs-15" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xv_3JATJkNZOGaEbZYAs-12" value="Initialized git repository and connected to Heroku app" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="145" y="430" width="150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="xv_3JATJkNZOGaEbZYAs-14" value="&lt;i&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;$ heroku git:remote -a heroku-app-name&lt;/font&gt;&lt;/i&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="100" y="470" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xv_3JATJkNZOGaEbZYAs-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="xv_3JATJkNZOGaEbZYAs-15" target="xv_3JATJkNZOGaEbZYAs-20" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xv_3JATJkNZOGaEbZYAs-15" value="Added and commited to Heroku branch" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="339" y="430" width="150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="xv_3JATJkNZOGaEbZYAs-17" value="&lt;i&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;&quot;start&quot;: &quot;node index,js&quot;&lt;/font&gt;&lt;/i&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="220" y="190" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xv_3JATJkNZOGaEbZYAs-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="xv_3JATJkNZOGaEbZYAs-20" target="xv_3JATJkNZOGaEbZYAs-26" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xv_3JATJkNZOGaEbZYAs-20" value="It runs?" style="rhombus;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="520" y="410" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="F6QhuK4oGR0zkBD9OG1N-1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="xv_3JATJkNZOGaEbZYAs-26" target="F6QhuK4oGR0zkBD9OG1N-0">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xv_3JATJkNZOGaEbZYAs-26" value="Created qovery IAM user" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="500" y="340" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="xv_3JATJkNZOGaEbZYAs-28" value="yes" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="560" y="380" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xv_3JATJkNZOGaEbZYAs-29" value="&lt;i style=&quot;border-color: var(--border-color);&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;web: node index.js&lt;/font&gt;&lt;/i&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="230" y="260" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="F6QhuK4oGR0zkBD9OG1N-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="F6QhuK4oGR0zkBD9OG1N-0" target="F6QhuK4oGR0zkBD9OG1N-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="F6QhuK4oGR0zkBD9OG1N-0" value="Created Qovery cluster" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="500" y="270" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="F6QhuK4oGR0zkBD9OG1N-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="F6QhuK4oGR0zkBD9OG1N-2" target="F6QhuK4oGR0zkBD9OG1N-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="F6QhuK4oGR0zkBD9OG1N-2" value="Added the Qovery IAM user credentials to the cluster" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="500" y="200" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="F6QhuK4oGR0zkBD9OG1N-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="F6QhuK4oGR0zkBD9OG1N-5" target="F6QhuK4oGR0zkBD9OG1N-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="F6QhuK4oGR0zkBD9OG1N-5" value="Created Application on Qovery and deployed it" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="500" y="120" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="F6QhuK4oGR0zkBD9OG1N-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="F6QhuK4oGR0zkBD9OG1N-7" target="F6QhuK4oGR0zkBD9OG1N-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="F6QhuK4oGR0zkBD9OG1N-7" value="It runs?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="670" y="100" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="F6QhuK4oGR0zkBD9OG1N-9" value="Searched on how to deploy Heroku application to Fargate&amp;nbsp;&lt;br&gt;(a lot)" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="650" y="200" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="F6QhuK4oGR0zkBD9OG1N-12" value="no" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="710" y="170" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="F6QhuK4oGR0zkBD9OG1N-15" value="&lt;i&gt;Scaled the web dynos to 0 to stop the application&lt;br&gt;heroku ps:scale web=0 -a heroku-app-test7790&lt;/i&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="339" y="500" width="280" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

@@ -1,0 +1,1 @@
+910807620466.dkr.ecr.eu-west-1.amazonaws.com/fargate-app:latest
